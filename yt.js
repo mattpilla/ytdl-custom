@@ -16,9 +16,9 @@ if (args._.length !== 2) {
         + 'url\turl to the video\n'
         + 'output\tfile to save the video as\n\n'
         + 'options:\n'
-        + '   -s, --start REGEXP\ttimestamp for start of video, in seconds or [[hh:]mm:]ss[.xxx] format\n'
+        + '   -s, --start REGEXP\t\ttimestamp for start of video, in seconds or [[hh:]mm:]ss[.xxx] format\n'
         + '   -d, --duration REGEXP\tlength to clip, in seconds or [[hh:]mm:]ss[.xxx] format\n'
-        + '   -f, --format REGEXP\tformat to save video as (default mp4)'
+        + '   -f, --format REGEXP\t\tformat to save video as (default mp4)'
     );
 }
 
